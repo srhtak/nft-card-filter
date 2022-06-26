@@ -43,7 +43,7 @@
 <script setup>
 import { ref, watchEffect, computed } from "vue";
 import { useNft } from "../stores/nft";
-import Paginate from "../views/Paginate.vue";
+import Paginate from "../components/Paginate.vue";
 import BaseInput from "./BaseInput.vue";
 import FilterDropdown from "./FilterDropdown.vue";
 
