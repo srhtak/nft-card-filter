@@ -1,0 +1,14 @@
+{
+    "products": [
+      { "id": 1, "title": "NFT 1", "price": 10, "currency":"BNB", "image":"https://picsum.photos/200/300","type":"image","publishedAt": 1598204245 },
+      { "id": 2, "title": "NFT 2", "price": 20, "currency":"BNB", "image":"https://picsum.photos/200/300","type":"image","publishedAt": 1597604578 },
+      { "id": 3, "title": "NFT 3", "price": 30, "currency":"BNB", "image":"https://picsum.photos/200/300","type":"image","publishedAt": 1597106059 },
+      { "id": 4, "title": "NFT 4", "price": 40, "currency":"BNB", "image":"https://picsum.photos/200/300","type":"image","publishedAt": 1597006693 },
+      { "id": 5, "title": "NFT 5", "price": 50, "currency":"BNB", "image":"https://picsum.photos/200/300","type":"video","publishedAt": 1597903748},
+      { "id": 6, "title": "NFT 6", "price": 60, "currency":"BNB", "image":"https://picsum.photos/200/300","type":"image","publishedAt": 1598006773 },
+      { "id": 7, "title": "NFT 7", "price": 70, "currency":"BNB", "image":"https://picsum.photos/200/300","type":"image" ,"publishedAt": 1596208220},
+      { "id": 8, "title": "NFT 8", "price": 80, "currency":"BNB", "image":"https://picsum.photos/200/300","type":"video","publishedAt": 1596708324 },
+      { "id": 9, "title": "NFT 9", "price": 90, "currency":"BNB", "image":"https://picsum.photos/200/300","type":"image" ,"publishedAt": 1599209109},
+      { "id": 10, "title": "NFT 10", "price": 100, "currency":"BNB", "image":"https://picsum.photos/200/300","type":"image" ,"publishedAt": 1597209621}
+    ]
+  }
