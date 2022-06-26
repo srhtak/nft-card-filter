@@ -43,9 +43,9 @@
 <script setup>
 import { ref, watchEffect, computed } from "vue";
 import { useNft } from "../stores/nft";
-import Paginate from "../components/Paginate.vue";
 import BaseInput from "./BaseInput.vue";
 import FilterDropdown from "./FilterDropdown.vue";
+import Paginate from "./Paginate.vue";
 
 const store = useNft();
 const products = computed(() => {
@@ -123,7 +123,7 @@ const paginate = (array, page_size) => {
 
 watchEffect(() => {
   let result = store.products;
-  result = filterByTag(result);
+  result = filterByTag(paginate(result, 5));
   result = filterByRange(result);
   result = sortingByDate(result);
   result = sortingByPrice(paginate(result, 5));
