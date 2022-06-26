@@ -126,7 +126,7 @@ watchEffect(() => {
   result = filterByTag(paginate(result, 5));
   result = filterByRange(result);
   result = sortingByDate(result);
-  result = sortingByPrice(paginate(result, 5));
+  result = sortingByPrice(result);
   filterData.value = result;
   emit("filter", filterData.value);
 }, [

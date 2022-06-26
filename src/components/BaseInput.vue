@@ -9,6 +9,7 @@
       :value="modelValue"
       @input="emit('update:modelValue', $event.target.value)"
       min="0"
+      max="100"
       :type="props.type"
       id="minValue"
       step="10"
