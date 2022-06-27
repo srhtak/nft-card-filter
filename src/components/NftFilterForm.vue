@@ -72,6 +72,7 @@ const clearFilter = () => {
 
 //Sorting by date
 const sortingDate = (data) => {
+  sortedPrice.value = false;
   sortedDate.value = !data;
 };
 
@@ -85,6 +86,7 @@ const sortingByDate = (array) => {
 };
 //Sorting by price
 const sortingPrice = (data) => {
+  sortedDate.value = false;
   sortedPrice.value = !data;
 };
 
